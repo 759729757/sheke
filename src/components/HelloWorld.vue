@@ -84,7 +84,7 @@
 </template>
 
 <script>
-export default {
+  export default {
   name: 'HelloWorld',
   data () {
     return {
