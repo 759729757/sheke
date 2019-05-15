@@ -23,7 +23,7 @@ export default {
   .lg-2{width: 48%;margin:0 1%;}
   .lg-3{width: 32%;margin-right: 2%;}
   .lg-4{width: 23%;margin:0 1%;}
-  .lg-3:last-child,.lg-4:last-child{margin-right:0;}
+  .lg-3:nth-child(3n+3),.lg-4:last-child{margin-right:0;}
   .btn{background: #00915b;font-size: larger;text-align: center;width: 522px;color: white;border: none;margin: 0 auto;
     display: block;line-height: 35px;padding: 10px 0;font-weight: 600;}
   .half-part{width: 50%;display: inline-block;}
@@ -35,7 +35,7 @@ export default {
 .marright0{margin-right: 0;}
 .white-bg{background-color: white;}
 .float-room{zoom: 1;overflow: hidden;}
-.gray-bg{background: #0a182c;color: white;}
+.gray-bg{background: #004079;color: white;}
 .flex-row{display: flex;flex-direction: row;justify-content: center;justify-items: center; align-items: center;}
 .footer .flex-row{align-items: flex-end;}
 .footer .flex-row>div{margin: 0 20px;}

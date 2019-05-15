@@ -104,55 +104,97 @@
         </div>
       </div>
 
-      <!--新闻动态-->
+      <!--自科高研院-->
       <div class="container-full news-warp">
         <div class="container-full cover">
           <div class="session container">
             <div class="session-title">
               <h1>
-                新闻动态 <span>NEWS</span>
+                自科高研院
               </h1>
             </div>
             <div class="content">
               <div class="grid lg-3 sm-1 item ">
-                <img src="https://new.trinity.edu/sites/default/files/captioned_images/loder-web-1.jpg">
-                <div class="detail">
-                  <h4>粤海澳大湾区语言资源第第二次第二次第二次</h4>
-                  <p>
-                    粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
-                  </p>
-                  <a href="">
-                    更多信息<span class="icon icon-more"></span>
-                  </a>
+                <h3>使命愿景 >></h3>
+                <div class="news-1">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class="grid lg-3 sm-1 item ">
-                <img src="https://new.trinity.edu/sites/default/files/captioned_images/web-webinarstory.jpg">
-                <div class="detail">
-                  <h4>粤海澳大湾区语言资源第第二次第二次第二次</h4>
-                  <p>
-                    粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
-                  </p>
-                  <a href="">
-                    更多信息<span class="icon icon-more"></span>
-                  </a>
+                <h3>理工实验平台 >></h3>
+                <div class="news-2">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class="grid lg-3 sm-1 item ">
-                <img src="https://new.trinity.edu/sites/default/files/file_attachments/loder-web-2.jpg">
-                <div class="detail">
-                  <h4>粤海澳大湾区语言资源第第二次第二次第二次</h4>
-                  <p>
-                    粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
-                  </p>
-                  <a href="">
-                    更多信息<span class="icon icon-more"></span>
-                  </a>
+                <h3>图片册 >></h3>
+                <div class="news-3">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <button class="btn btn-more">更多动态 View More</button>
+              <div class="grid lg-3 sm-1 item ">
+                <h3>学术沙龙 >></h3>
+                <div class="news-4">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="grid lg-3 sm-1 item ">
+                <h3>人才培养 >></h3>
+                <div class="news-5">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="grid lg-3 sm-1 item ">
+                <h3>活动日历 >></h3>
+                <div class="news-6">
+                  <div class="detail ">
+                    <p>
+                      粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次粤海澳大湾区语言资源第第二次第二次第二次
+                    </p>
+                    <a href="" class="more-info">
+                      更多信息 ><span class="icon icon-more"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
 
           </div>
         </div>
@@ -184,8 +226,6 @@
           </div>
         </div>
       </div>
-
-
       <!--数据高研院-->
       <div class="container-full data-number session">
         <div class="container">
@@ -330,44 +370,42 @@ function runToTop (h) {
     transform: translate(-50%, -100%);
     -webkit-transform: translate(-50%, -100%);
   }
-
+  .grid h3, .team h2 {
+    color: #00915b;margin-bottom: 15px;
+  }
   .news-warp {
-    background-image: url("../assets/newsbg.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
   }
-
-  .news-warp .cover {
-  }
-
+  .news-warp .grid{margin-bottom: 50px}
   .news-warp .detail {
-    background: none;
-    color: white;
-    padding: 30px 0;
-    height: auto;
+  background-color: rgba(255,255,255,.8);
+    padding: 30px;box-sizing: border-box;position: relative;
+    min-height: 400px;border-top: #333 6px solid;
   }
-
+  .news-warp .detail p{line-height: 2em;}
   .news-warp a {
-    color: #fff;
     font-weight: bold;
     padding: 20px 0;
     display: block;
   }
-
+  .news-warp h3{color: #333;padding-left: 20px;}
   .news-warp h4 {
     margin-bottom: 20px;
   }
+  .news-warp .news-1{background-image: url("../assets/zk1.jpg");background-position: center;background-size: cover;}
+  .news-warp .news-2{background-image: url("../assets/zk2.jpg");background-position: center;background-size: cover;}
+  .news-warp .news-3{background-image: url("../assets/zk3.jpg");background-position: center;background-size: cover;}
+  .news-warp .news-4{background-image: url("../assets/zk4.jpg");background-position: center;background-size: cover;}
+  .news-warp .news-5{background-image: url("../assets/zk5.jpg");background-position: center;background-size: cover;}
+  .news-warp .news-6{background-image: url("../assets/zk6.jpg");background-position: center;background-size: cover;}
+  .more-info{position: absolute;bottom: 0;left: 30px;}
 
   .grid img {
     width: 100%;
     display: block;
-  }
-
-  .grid h3, .team h2 {
-    color: #00915b;margin-bottom: 15px;
   }
 
   .team h2 {
@@ -521,14 +559,16 @@ function runToTop (h) {
     }
 
     .hot-warp {
-      background-position: left;
+      background-image: none;
     }
 
     .photo-warp, .event-warp {
       width: 100%;
       margin-left: 0;
     }
-
+    .hot-warp .half-part{
+      float: none;padding-left: 0;
+    }
     .event-warp .grid {
       margin-bottom: 2%;
     }
@@ -611,7 +651,9 @@ function runToTop (h) {
     .news-warp .detail {
       color: #000;
     }
-
+    .news-warp .content{
+      display: flex;flex-wrap: wrap;
+    }
 
     .data-number .grid {
       margin-bottom: 50px;
