@@ -14,3 +14,13 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+
+Vue.prototype.toPath = function (path) {
+  var self=this;
+  setTimeout(function () {
+    self.$router.push({
+      path:path
+    })
+  },350)
+}

@@ -1,5 +1,5 @@
 <template>
-  <div id="banner-top">
+  <div id="banner-top" :class="navIndex != 0 ? 'rolled' :''">
     <div class="banner-top ">
       <div class="container nav-warp">
         <div class="logo-warp pull-left">
@@ -12,12 +12,13 @@
     <div class="nav-menu">
       <div class="container">
         <ul class="">
-          <li class="active"><a href="">关于我们</a></li>
-          <li><a href="">研究机构</a></li>
-          <li><a href="">科学研究</a></li>
-          <li><a href="">学术活动</a></li>
-          <li><a href="">人才招聘</a></li>
-          <li><a href="">信息服务</a></li>
+          <li :class="nav == 0 ? 'active':''"><a @click="toPath('/')" href="javascript:void(0);">首页</a></li>
+          <li :class="nav == 1 ? 'active':''"><a @click="toPath('/about/')" href="javascript:void(0);">关于我们</a></li>
+          <li :class="nav == 2 ? 'active':''"><a @click="toPath('/organization/')" href="javascript:void(0);">研究机构</a></li>
+          <li :class="nav == 3 ? 'active':''"><a @click="toPath('/research/')" href="javascript:void(0);">科学研究</a></li>
+          <li :class="nav == 4 ? 'active':''"><a @click="toPath('/events/')" href="javascript:void(0);">学术活动</a></li>
+          <li :class="nav == 5 ? 'active':''"><a @click="toPath('/recruit/')" href="javascript:void(0);">人才招聘</a></li>
+          <li :class="nav == 6 ? 'active':''"><a @click="toPath('/service/')" href="javascript:void(0);">信息服务</a></li>
         </ul>
       </div>
     </div>
@@ -26,15 +27,18 @@
 </template>
 
 <script>
+  var navIndex = 1;
   var nav =  {
     name: 'clientNav',
+    props: ['nav'],
     data () {
       return {
-
+        navIndex:this.nav
       }
     },
-    beforeCreate() {
-      console.log(this);
+    created() {
+      console.log('clientNav',this);
+      navIndex = this.$data.navIndex;
     }
   };
   function getWindowHeight() {
@@ -43,6 +47,7 @@
   }
   window.onscroll= function(){
     //变量t是滚动条滚动时，距离顶部的距离
+    if ( navIndex != 0)return false;
     var t = document.documentElement.scrollTop||document.body.scrollTop;
     var scrollup = document.getElementById('banner-top');
     //当滚动到距离顶部200px时，返回顶部的锚点显示
@@ -80,8 +85,9 @@
   .nav-menu li a{color: white;padding-bottom: 8px;display: inline-block;line-height: 42.75px;font-weight: 600;text-decoration: none; position: relative;}
   .rolled .nav-menu li a:hover,.rolled .nav-menu li.active a{color: #00915b;}
   .nav-menu li a:hover:after,.nav-menu li.active a:after{ visibility: visible; -webkit-transform: scaleX(1); transform: scaleX(1); transition: all .25s ease-out;}
-  .nav-menu li a:after{ background-color: #fff; content: ""; position: absolute; width: 100%; height: 3px; bottom: 0;left: 0;
-    visibility: hidden;-webkit-transform: scaleX(0); transform: scaleX(0); transition: all .15s ease-in; z-index: 1;}
+  .nav-menu li a:after{ background-color: #fff; content: ""; position: absolute; width: 100%; height: 3px; bottom: 0px;left: 0;
+    visibility: hidden;-webkit-transform: scaleX(0.01); transform: scaleX(0.01); transition: all .15s ease-in; z-index: 1;}
+  .nav-menu li a:active:after{bottom: -3px;}
 
   @media (min-width: 992px) {
     .rolled .nav-menu:before,.rolled ._logo-name{display: none;}

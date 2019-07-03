@@ -3,7 +3,7 @@
     <!--导航栏 + 顶部大图-->
     <div class="session1 " :style="{height:h}">
       <div class="bannerBg"></div>
-      <clientNav></clientNav>
+      <clientNav nav="0"></clientNav>
       <div class="banner-title">
         <img src="../assets/bigName.svg" width="100%">
       </div>
@@ -517,10 +517,7 @@ function runToTop (h) {
     background-repeat: no-repeat;
   }
 
-  .data-number .icon {
-    width: 70%;
-    margin: 20px 15% 50px 15%;
-  }
+  .data-number .icon{width: 70%;margin: 20px 15% 50px 15%;height: auto;}
 
   .data-number .data {
     display: flex;
